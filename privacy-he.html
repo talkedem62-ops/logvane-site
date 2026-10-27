@@ -18,8 +18,8 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Sans+Hebrew:wght@400;500;600;700&display=swap">
 <style>
 :root{
-  --bg:#F5F1E8; --bg-2:#ECE6D9; --surface:#FBF9F4; --ink:#16150F; --ink-2:#4A473E; --ink-3:#7A7567;
-  --line:#D9D2C2; --accent:#E0641C; --accent-ink:#B4480C; --accent-soft:#F6DCC9;
+  --bg:#F5F1E8; --bg-2:#ECE6D9; --surface:#FBF9F4; --ink:#16150F; --ink-2:#4A473E; --ink-3:#6A6557;
+  --line:#D9D2C2; --accent:#E0641C; --accent-ink:#A8430B; --accent-soft:#F6DCC9;
   --panel:#16150F; --panel-ink:#EDE8DC; --panel-line:#34322A; --ok:#3F7D4E;
   --sans:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
   color-scheme:light dark;
@@ -75,8 +75,8 @@ section{padding:46px 0;border-bottom:1px solid var(--line)}
 .btn{display:inline-flex;align-items:center;gap:10px;padding:13px 20px;border-radius:8px;font-weight:600;font-size:16px;text-decoration:none;border:1px solid transparent;transition:transform .15s ease, background .15s ease}
 .btn:hover{transform:translateY(-1px)}
 @media (prefers-reduced-motion:reduce){.btn{transition:none}}
-.btn-primary{background:var(--accent);color:#fff}
-.btn-primary:hover{background:var(--accent-ink)}
+.btn-primary{background:var(--accent-ink);color:#fff}
+.btn-primary:hover{background:#8E380A}
 @media (prefers-color-scheme:dark){.btn-primary{color:#140A03}.btn-primary:hover{background:#F08A4B}}
 .btn-ghost{border-color:var(--ink);color:var(--ink)}
 .btn-ghost:hover{background:var(--ink);color:var(--bg)}
@@ -246,11 +246,12 @@ footer .langs a[aria-current]{color:var(--ink);font-weight:600;border-bottom:2px
 .priv .meta{color:var(--ink-3);font-size:14px;margin:0 0 20px}
 .priv a{color:var(--accent-ink)}
 </style>
+<a class="skip" href="#main">דילוג לתוכן</a>
 <header class="top"><div class="wrap">
   <a class="brand" href="he.html" aria-label="Logvane"><svg viewBox="0 0 32 32" aria-hidden="true"><rect x="1" y="1" width="30" height="30" rx="7" fill="#E0641C"/><path d="M7 16h14" stroke="#16150F" stroke-width="2.4" stroke-linecap="round"/><path d="M20 11.5l6 4.5-6 4.5z" fill="#16150F"/><path d="M7 16l-1.5-4.5M10 16l-1.5-4.5M7 16l-1.5 4.5M10 16l-1.5 4.5" stroke="#16150F" stroke-width="1.8" stroke-linecap="round"/></svg><span>logvane</span></a>
   <nav class="nav"><a class="lang" href="privacy.html" lang="en">English</a></nav>
 </div></header>
-<main class="priv">
+<main id="main" class="priv">
 <h1>מדיניות פרטיות</h1>
 <p class="meta">עודכן לאחרונה: 25 באוקטובר 2026</p>
 
